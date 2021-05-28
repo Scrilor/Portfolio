@@ -1,0 +1,6 @@
+NavBar - Titres - #956c43
+NavBar:hover - #f0ece5
+NavBar.background #e1d9cb
+Couleur second plan - #f7f5f2
+Liens discrets - #797979
+Footer background - #30343e
