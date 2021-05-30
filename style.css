@@ -205,7 +205,6 @@
     border-radius: 50%;
     border: solid #00adb5 3px;
     float: left;
-    position: ;
   }
 
   .title {
@@ -218,4 +217,3 @@
     height: 50px;
     width: 195px;
   }
-}
