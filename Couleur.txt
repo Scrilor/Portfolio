@@ -4,3 +4,17 @@ NavBar.background #e1d9cb
 Couleur second plan - #f7f5f2
 Liens discrets - #797979
 Footer background - #30343e
+
+
+
+Nouvelle palette de couleur :
+background - #222831
+texte - #dddddd
+Boutton - #30475e
+Lien - border - dégradé etc.... - #f05454
+
+Seconde à tester :
+background - #222831
+texte - #eeeeee / #dddddd
+Boutton - #00adb5
+autres - #393e46

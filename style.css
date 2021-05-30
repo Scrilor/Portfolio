@@ -7,7 +7,7 @@
   }
   
   .navbar {
-    background: #131313;
+    background: #222831;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -30,10 +30,10 @@
   }
   
   #navbar__logo {
-    background-color: #ff8177;
-    background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+    background-image: linear-gradient(to top, #dddddd 0%, #393e46 100%);
     background-size: 100%;
     -webkit-background-clip: text;
+    background-clip: text;
     -moz-background-clip: text;
     -webkit-text-fill-color: transparent;
     -moz-text-fill-color: transparent;
@@ -55,7 +55,7 @@
   }
   
   .navbar__links {
-    color: #fff;
+    color: #dddddd;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -84,19 +84,19 @@
     border: none;
     outline: none;
     border-radius: 4px;
-    background: #833ab4;
-    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #fcb045, #fd1d1d, #833ab4);
-    color: #fff;
+    background: #00adb5;
+    /*background: -webkit-linear-gradient(to right, #f7f5f2 , #f0ece5, #956c43);
+    background: linear-gradient(to right, #f7f5f2, #f0ece5, #956c43);*/
+    color: #dddddd;
     transition: all 0.3s ease;
   }
   
   .navbar__links:hover {
-    color: #9518fc;
+    color: #393e46;
     transition: all 0.3s ease;
   }
   
-  @media screen and (max-width: 960px) {
+  @media screen and (max-width: 1070px) {
     .navbar__container {
       display: flex;
       justify-content: space-between;
@@ -120,7 +120,7 @@
     }
   
     .navbar__menu.active {
-      background: #131313;
+      background: #222831;
       top: 100%;
       opacity: 1;
       transition: all 0.5s ease;
@@ -189,3 +189,33 @@
       transform: translateY(-8px) rotate(-45deg);
     }
   }
+
+  .profil {
+    display: flex;
+    background: #222831;
+    width: 100%;
+    padding-left: 3%;
+  }
+
+  #moi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 250px;
+    border-radius: 50%;
+    border: solid #00adb5 3px;
+    float: left;
+    position: ;
+  }
+
+  .title {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #dddddd;
+    top: 0;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 195px;
+  }
+}
